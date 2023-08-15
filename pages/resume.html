@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+
+                extend: {
+                    fontFamily: {
+                        'poppins': ['Poppins, sans-serif'],
+                        'raleway': ['Raleway, sans-serif'],
+                        'pacifico': ['pacifico, cursive']
+                    },
+                    colors: {
+                        'primary': '#F2F5F9',
+                        'merah': '#EC1B09',
+                        'oren': '#FF9C1B',
+                    },
+
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1 id="header" class="w-full px-14 my-[29px] py-5 text-merah font-bold font-pacifico">My<span class="text-oren">Portfolio</span></h1>
+    </header>
+
+    <section id="home" class="p-10">       
+        <div class="container">
+            <div class="flex flex-wrap px-4">
+                <!-- Hero Asside Start -->
+                <aside class="w-full bg-primary font-raleway self-center px-4 rounded-xl mb-2 lg:w-1/4">
+                    <div class="pb-[66px]">
+                        <img width="200" height="200" src="/img/osi.png" 
+                        alt="osi" class="mt-[52px] bg-oren rounded-xl shadow-lg 
+                        mx-auto">
+                        <h1 class="mt-[14px] text-2xl font-bold text-center">One Rokhsi Saputra</h1>
+                        <p class="mt-[4px] p-3 text-base text-center text-zinc-500">FullStack Developer</p>
+                        <div class="flex items-center justify-center mt-[6px]">
+                            <!-- facebook -->
+                            <a href="https://www.facebook.com/onerokhsi" target="_blank" class="w-[60.03px] h-[61.19px] mr-3 text-blue-600 rounded-xl flex justify-center items-centerborder bg-sky-100 transition-all duration-100 hover:shadow-xl">
+                                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            </a>
+
+                            <!-- linkedin -->
+                            <a href="https://www.linkedin.com/in/one-rokhsi-saputra-679345263/" target="_blank" class="w-[60.03px] h-[61.19px] mr-3 text-blue-600 rounded-xl flex justify-center items-centerborder bg-sky-100 transition-all duration-100 hover:shadow-xl">
+                                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            </a>
+
+                            <!-- twitter -->
+                            <a href="https://twitter.com/onerokh77498?s=09" target="_blank" class="w-[60.03px] h-[61.19px] mr-3 text-sky-400 rounded-xl flex justify-center items-centerborder bg-sky-100 transition-all duration-100 hover:shadow-xl">
+                                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M21.543 7.104c.015.211.015.423.015.636 0 6.507-4.954 14.01-14.01 14.01v-.003A13.94 13.94 0 0 1 0 19.539a9.88 9.88 0 0 0 7.287-2.041 4.93 4.93 0 0 1-4.6-3.42 4.916 4.916 0 0 0 2.223-.084A4.926 4.926 0 0 1 .96 9.167v-.062a4.887 4.887 0 0 0 2.235.616A4.928 4.928 0 0 1 1.67 3.148 13.98 13.98 0 0 0 11.82 8.292a4.929 4.929 0 0 1 8.39-4.49 9.868 9.868 0 0 0 3.128-1.196 4.941 4.941 0 0 1-2.165 2.724A9.828 9.828 0 0 0 24 4.555a10.019 10.019 0 0 1-2.457 2.549z"/></svg>
+                            </a>
+
+                            <!-- github -->
+                            <a href="https://github.com/OneRokhsiSaputra" target="_blank" class="w-[60.03px] h-[61.19px] mr-3 rounded-xl flex justify-center items-centerborder bg-sky-100 transition-all duration-100 hover:shadow-xl">
+                                <svg role="img" width="20"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                            </a>
+                        </div>
+                        <div class="w-full mt-[30px] p-4 rounded-xl bg-blue-100">
+                            <!-- phone -->
+                            <div class="flex items-center">
+                                <div class="p-4">
+                                    <img width="44" height="44" src="/img/Phone.png" alt="phone">
+                                </div>
+                                <div>
+                                    <h1 class="text-slate-300">Phone</h1>
+                                    <p class="font-bold">081358171945</p>
+                                </div>
+                            </div>
+                            <span class="w-[200px] h-[1px] ml-4 block bg-slate-300 shadow-md"></span>
+
+                            <!-- Email -->
+
+                            <div class="flex items-center">
+                                <div class="mt-4 p-4">
+                                    <img width="40" height="20" class="" src="/img/Email.png" alt="phone">
+                                </div>
+                                <div>
+                                    <h1 class="text-slate-300">Email</h1>
+                                    <p class="font-bold tex-base">rokhsi@gmail.com</p>
+                                </div>
+                            </div>
+                            <span class="w-[200px] h-[1px] ml-4 block bg-slate-300 shadow-md"></span>
+
+
+                            <!-- Location -->
+                            <div class="flex items-center"> 
+                                <div class="mt-4 p-4">
+                                    <img width="44" height="44" src="/img/Location.png" alt="phone">
+                                </div>
+                                <div>
+                                    <h1 class="text-slate-300">Location</h1>
+                                    <p class="font-bold">Kediri, Jawa Timur</p>
+                                </div>
+                            </div>
+                            <span class="w-[200px] h-[1px] ml-4 mb-4 block bg-slate-300 shadow-md"></span>
+
+
+                            <!-- Download -->
+                            <div class="w-full mt-4">
+                                <a href="https://drive.google.com/file/d/1NbarwTjKTptNKorcgMKCI35-mm4bbqKI/view?usp=drivesdk" target="_blank"
+                            class="mx-auto w-60 py-2 bg-oren flex items-center justify-center space-x-4 rounded-full mt-5 transition-all duration-100 hover:shadow-xl">
+                            <img src="/img/dwnld.png" alt="download">
+                            <span class="text-white">Download Resume</span>
+                        </a>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <!-- Hero Aside End -->
+
+                <!-- Heading Start -->
+                <div class="w-full mt-16 self-end px-4 lg:w-3/4">
+                    <!-- Nav start -->
+                    <nav class="w-full mt-[42px] p-3 flex justify-center items-center font-raleway rounded-lg bg-primary lg:w-[503px] lg:h-[100px] lg:ml-[275px]">
+                        <div class="w-[80px] h-[80px] p-3 mr-2 bg-blue-300 text-black font-semibold text-center rounded-lg hover:bg-oren hover:text-white">
+                            <a href="/index.html" target="_blank"><img width="24px" height="24px" class="mx-auto" src="/img/home.png" alt="home"><p>Home</p></a>
+                        </div>
+                        <div class="w-[80px] h-[80px] p-3 mr-2 bg-blue-300 text-black font-semibold rounded-lg hover:bg-oren hover:text-white">
+                            <a href="/pages/resume.html" target="_blank"><img width="24px" height="24px" class="mx-auto" src="/img/resume.png" alt="resume"><p>Resume</p></a>
+                        </div>
+                        <div class="w-[80px] h-[80px] p-3 mr-2 bg-blue-300 text-black font-semibold rounded-lg hover:bg-oren hover:text-white">
+                            <a href="/pages/contact.html" target="_blank"><img width="24px" height="24px" class="mx-auto" src="/img/contact.png" alt="home"><p>Contact</p></a>
+                        </div>
+                    </nav>
+                    <!-- Nav End -->
+
+                    <!-- Resume start -->
+                    <section class="w-full bg-primary rounded-xl my-[10px] p-4">
+                        <div class="flex items-center">
+                            <h1 id="huruf" class="font-semibold text-xl font-poppins py-[10px] lg:pl-8 lg:text-4xl">Resume</h1>
+                            <span class="w-[150px] h-[2px] ml-4 block bg-oren shadow-md lg:w-[252px]"></span>
+                        </div>
+                        <!-- Education & Experience-->
+                        <div class="flex flex-wrap lg:pl-8">
+                            <div class="w-full self-center lg:w-1/2">
+                                <div class="flex items-center">
+                                    <div>
+                                        <img width="24px" height="17px"  src="/img/Toga.png" alt="toga">
+                                    </div>
+                                    <div class="font-semibold font-poppins text-xl py-[10px] lg:text-2xl">
+                                        <h1>Education</h1>
+                                    </div>
+                                </div>
+                                    <div class="w-full bg-red-300 rounded-xl font-raleway lg:w-[350px] lg:h-[115.5px]">
+                                    <div class="p-2 py-4">
+                                    <h3 class=" text-slate-400 font-semibold">2020-2021</h3>
+                                    <p class="font-bold">Software Development</p>
+                                    <p class=" font-semibold">Moringa School</p>
+                                    </div>
+                                    </div>
+                                    <div class="w-full bg-red-200 rounded-xl font-raleway mt-6 lg:w-[350px] lg:h-[115.5px]">
+                                    <div class="p-2 py-4">
+                                    <h3 class=" text-slate-400 font-semibold">2012-2016</h3>
+                                    <p class="font-bold">Disaster Management</p>
+                                    <p class="font-semibold">Masinde Muliro Universiity </p>
+                                    </div>
+                                    </div>
+                            </div>
+                            <div class="w-full self-end lg:w-1/2">
+                                <div class="flex items-center">
+                                    <div>
+                                        <img width="24px" height="17px"  src="/img/Toga.png" alt="toga">
+                                    </div>
+                                    <div class="font-semibold font-poppins text-xl py-[10px] lg:text-2xl">
+                                        <h1>Experience</h1>
+                                    </div>
+                                </div>
+                                    <div class="w-full bg-red-300 rounded-xl font-raleway lg:w-[350px] lg:h-[115.5px]">
+                                    <div class="p-2 py-4">
+                                    <h3 class=" text-slate-400 font-semibold">2022 - Present</h3>
+                                    <p class="font-bold">Technical Mentor</p>
+                                    <p class="font-semibold">Moringa School</p>
+                                    </div>
+                                    </div>
+                                    <div class="w-full bg-red-300 rounded-xl font-raleway mt-6 lg:w-[350px] lg:h-[115.5px]">
+                                    <div class="p-2 py-4">
+                                    <h3 class="text-slate-400 font-semibold">2021-2022</h3>
+                                    <p class="font-bold">Website Development</p>
+                                    <p class="font-semibold">Village 2 Nation</p>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <!-- Work Skill & Soft Skill -->
+                        <div class="flex flex-wrap mt-9 lg:pl-8">
+                            <div class="w-full self-center lg:w-1/2">
+                                <div class="font-semibold font-poppins text-xl py-[10px]">
+                                    <h1>Work Skills</h1>
+                                </div>
+                                <div class="flex flex-wrap gap-8">
+                                    <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2 ">NEXT.js</span>
+                                    <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2 ">React.js</span>
+                                    <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2 ">HTML 5</span>
+                                    <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2 ">CSS 3</span>
+                                    <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2 ">Tailwind CSS</span>
+                                    <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2 ">Figma</span>
+                                    <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2 ">JavaScript</span>
+                                    <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2 ">Mongo DB</span>
+                                    <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2 ">SQL</span>
+                                    <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2 ">Angular</span>
+                                    <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2 ">Android</span>
+                                    <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2 ">Git</span>
+                                </div>
+                            </div>
+                            <div class="w-full self-end lg:w-1/2">
+                                    <div class="font-semibold font-poppins text-xl py-[10px]">
+                                        <h1>Education</h1>
+                                    </div>
+                                    <div class="flex flex-wrap gap-8 pb-20">
+                                        <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2">Time Management</span>
+                                        <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2">Mentorship</span>
+                                        <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2">Impeccable Communication</span>
+                                        <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2">Flexibility</span>
+                                        <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2">Research</span>
+                                        <span class="p-2 bg-slate-200 rounded-lg shadow mr-4 mb-2">Writing</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Resume End -->
+                </div>
+                <!-- Heading End -->
+            </div>
+        </div> 
+    </section>
+</body>
+</html>
